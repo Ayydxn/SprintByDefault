@@ -1,0 +1,4 @@
+{
+  "options.sprintByDefault": "Sprint By Default",
+  "options.sprintByDefault.tooltip": "When enabled, you will automatically start sprinting when moving."
+}
