@@ -67,8 +67,8 @@ public class SprintByDefaultConfig
 
             Files.write(CONFIG_FILE.toPath(), Collections.singleton(GSON.toJson(INSTANCE)));
         }
-        {
         catch (IOException exception)
+        {
             SprintByDefaultClientMod.getLogger().error("Failed to write the Sprint By Default config!");
 
             exception.printStackTrace();
