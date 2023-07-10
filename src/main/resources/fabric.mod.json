@@ -5,12 +5,12 @@
   "name": "Sprint By Default",
   "description": "A simple mod which adds the ability for the player to always sprint when moving forwards.",
   "authors": [
-    "YoArcane"
+    "ArcaneWasTaken"
   ],
   "contact": {
-    "homepage": "https://github.com/YoArcane/SprintByDefault",
-    "sources": "https://github.com/YoArcane/SprintByDefault",
-    "issues": "https://github.com/YoArcane/SprintByDefault/issues"
+    "homepage": "https://github.com/ArcaneWasTaken/SprintByDefault",
+    "sources": "https://github.com/ArcaneWasTaken/SprintByDefault",
+    "issues": "https://github.com/ArcaneWasTaken/SprintByDefault/issues"
   },
   "license": "LGPL-3.0",
   "icon": "assets/sprint-by-default/icon.png",
@@ -24,7 +24,7 @@
     "sprint-by-default.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.20",
+    "minecraft": ">=${minecraft_version}",
     "fabricloader": ">=${loader_version}",
     "fabric": "*"
   }
