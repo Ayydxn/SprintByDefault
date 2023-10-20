@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.yoarcane.sprintbydefault.mixin",
+  "package": "me.ayydan.sprintbydefault.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

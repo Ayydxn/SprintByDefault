@@ -1,8 +1,8 @@
-package me.yoarcane.sprintbydefault.config;
+package me.ayydan.sprintbydefault.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import me.yoarcane.sprintbydefault.SprintByDefaultClientMod;
+import me.ayydan.sprintbydefault.SprintByDefaultClientMod;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.BufferedReader;

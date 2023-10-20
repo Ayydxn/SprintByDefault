@@ -1,6 +1,6 @@
-package me.yoarcane.sprintbydefault.mixin;
+package me.ayydan.sprintbydefault.mixin;
 
-import me.yoarcane.sprintbydefault.config.SprintByDefaultConfig;
+import me.ayydan.sprintbydefault.config.SprintByDefaultConfig;
 import net.minecraft.client.gui.Element;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.option.ControlsOptionsScreen;
@@ -16,7 +16,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
 @Mixin(ControlsOptionsScreen.class)
 public abstract class ControlsOptionsScreenMixin extends GameOptionsScreen
